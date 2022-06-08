@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Refugiadas</title>
+</head>
+
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Inicio</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="apoio.html">Apoie a causa</a>
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Entrar</button>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+ 
+</div>
+
+<div style="padding-left:16px">
+  <h2 style="text-allign">Saiba como ajudar</h2>
+</div>
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="assets/img_avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Usuário</b></label>
+      <input type="text" placeholder="Nome de usuário" name="uname" required>
+
+      <label for="psw"><b>Senha</b></label>
+      <input type="password" placeholder="Senha" name="psw" required>
+        
+      <button type="submit">Entrar</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Lembre-se de mim
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#ccc6c6">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+      <span class="psw">Esqueceu a <a href="#">senha</a></span>
+    </div>
+  </form>
+</div>
+
+<!-- Slide -->
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img class="imagem" src="assets/img1.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img class="imagem" src="assets/img2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img class="imagem" src="assets/img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+
+  <h2>Modal Login Form</h2>
+  <div>
+    <p>
+      t
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
