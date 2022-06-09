@@ -3,7 +3,7 @@
 ---
  ## 🔹Aluno: Daniel da Silva Soares
   ## 🔹Disciplina: Sistemas de Informação
-  ## 🔹Professor: Ricardo
+  ## 🔹Professor: Ricardo Mendes Costa Segundo
   
   
   
